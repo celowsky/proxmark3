@@ -18,7 +18,8 @@ cd proxmark3
 git pull
 ```
 
-## Clean and compile everything
+## Clean and compile everything 
+_Note: Do NOT compile with the BTADDON flag enabled on the `master` branch. [See issue here](https://github.com/RfidResearchGroup/proxmark3/issues/921)_
 
 ```sh
 make clean && make all
